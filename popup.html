@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Doceru PDF Extractor</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+    }
+    button {
+      padding: 6px 12px;
+      margin: 4px 0;
+      border: none;
+      border-radius: 6px;
+      background-color: #4a90e2; /* Azul suave */
+      color: white;
+      cursor: pointer;
+      font-size: 13px;
+      width: 100%;
+      text-align: center;
+      transition: background-color 0.2s ease;
+    }
+    button:hover {
+      background-color: #357abd; /* Tom mais escuro ao passar o mouse */
+    }
+    #copy {
+      background-color: #6b7280; /* Cinza elegante */
+    }
+    #copy:hover {
+      background-color: #4b5563;
+    }
+    #download {
+      background-color: #48bb78; /* Verde sutil */
+    }
+    #download:hover {
+      background-color: #38a169;
+    }
+    #result {
+      word-wrap: break-word;
+      font-size: 12px;
+      color: #444;
+      background-color: #fff;
+      padding: 8px;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      margin-top: 10px;
+      max-height: 100px;
+      overflow-y: auto;
+    }
+  </style>
+</head>
+<body>
+  <button id="extract">Extrair Link</button>
+  <button id="copy" style="display: none;">Copiar Link</button>
+  <button id="download" style="display: none;">Baixar Arquivo</button>
+  <p id="result">Clique no botão para extrair o link.</p>
+  <script src="popup.js"></script>
+</body>
+</html>

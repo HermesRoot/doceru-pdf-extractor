@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Doceru PDF Extractor",
+  "version": "1.0",
+  "description": "Extrai e baixa PDFs do Doceru.com com facilidade. Copie links ou salve arquivos diretamente com um clique.",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
