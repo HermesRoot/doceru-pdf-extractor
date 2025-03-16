@@ -8,7 +8,7 @@ Uma extensão para Chrome que facilita a extração e o download de PDFs do site
 ## ⚡ Funcionalidades
 - Extrai links de PDFs diretamente das páginas do Doceru.com.
 - Permite copiar o link para a área de transferência.
-- Baixa o PDF com o nome correto baseado no título da página (ex.: "Photoshop - Curso de Tratamento e Manipulação de Fotos.pdf").
+- Baixa o PDF com o nome correto baseado no título da página.
 
 ## 📥 Como instalar
 1. Baixe ou clone este repositório:
